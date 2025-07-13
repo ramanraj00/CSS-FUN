@@ -23,7 +23,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 1rem;
-        background: linear-gradient(to right, #005AA7,#cecdb3d1);
+    background: linear-gradient(to right, #005AA7,#cecdb3d1);
 }
 
 .header-box{
