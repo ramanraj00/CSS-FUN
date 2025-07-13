@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+
+html , body{
+    margin: 0;
+    padding: 0;
+    width: 100;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.336);
+}
+
+.header{
+    border: 1px solid rgb(221, 221, 200);
+    padding: 1.7rem;
+  
+}
+
+.header-content{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+   
+}
+.logo-image {
+    
+    justify-content: center;
+    width: 40px;
+    height: auto;
+}
+
+.image {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-link{
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+}
+
+.menu-buttton{
+
+    border: 0.5px solid rgb(226, 219, 219);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+       
+}
+
+.gap-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; 
+    gap: 5px;
+}
+
+ /* Hero Section */
+
+ .image-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 80px;
+ }
+
+ .main-image{
+    width: 1000px;
+    height: auto;
+ }
+
+ .testimonial-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+ }
+ .header-name{
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(68, 67, 67);
+    margin-bottom: 0%;
+ }
+
+ .para-div {
+    display: flex;
+    justify-content: center;
+ }
+
+ .para-text{
+    font-size: 23px;
+    font-weight: 300;
+ }
+
+ .butoon{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+ }
+
+ .button-text{
+     font-size: 30px;
+     background-color: #2e78da;
+    border-radius: 3px ;
+    padding: 0.7rem;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    font-weight: 400;
+    font-size: larger;
+    color: #ffffffdc;
+     
+ }
